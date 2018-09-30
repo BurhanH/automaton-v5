@@ -1,6 +1,5 @@
 import unittest
 from calls import get_posts, get_comments
-import random
 
 
 class APITest(unittest.TestCase):
@@ -19,7 +18,7 @@ class APITest(unittest.TestCase):
         """
         Testing post
         """
-        response = get_posts(random.randint(1, 100))
+        response = get_posts(6)  # range 1 - 100
 
         self.assertEqual(response.status_code, 200)
 
@@ -35,7 +34,7 @@ class APITest(unittest.TestCase):
         """
         Testing comment
         """
-        response = get_comments(random.randint(1, 500))
+        response = get_comments(120)  # range 1 - 500
 
         self.assertEqual(response.status_code, 200)
 
