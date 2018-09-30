@@ -2,7 +2,7 @@ import unittest
 from calls import get_posts, get_comments
 
 
-class APITest(unittest.TestCase):
+class TestAPI(unittest.TestCase):
     """
     This tests some API calls
     """
