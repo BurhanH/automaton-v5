@@ -6,12 +6,12 @@ Automation framework (API) - an example. Based on Python, Unittest
 
 # Quick start!
 
-#### Requirements
+## Requirements
 Python 3.6.\*, Unittest, <br> 
 virtualenv (virtual environment manager) <br>
 
-#### Project structure
-```
+## Project structure
+```text
 -- automaton-v5
    |-- .gitattributes
    |-- .gitignore
@@ -25,17 +25,17 @@ virtualenv (virtual environment manager) <br>
        |-- test_api.py
 ```
 
-#### How to prepare environment
-1) Install Python - https://www.python.org/downloads/ <br>
-2) Install and configure virtualenv - https://packaging.python.org/guides/installing-using-pip-and-virtualenv/ <br>
-3) Clone or copy (download) the repository into your virtual environment <br>
-4) Activate virtual environment, move to `automaton-v5` folder, and execute command `pip install -r requirements.txt` <br>
+## How to prepare environment
+1) Install [Python](https://www.python.org/downloads/)
+2) Install and configure [virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/)
+3) Clone or copy (download) the repository into your virtual environment
+4) Activate virtual environment, move to `automaton-v5` folder, and execute command `pip install -r requirements.txt`
 
-#### How to run tests
-1) Open terminal window <br>
-2) Move to virtual environment folder <br>
-3) Activate virtual environment <br>
-4) Move to `automaton-v5` folder <br>
-5) Execute `python -m unittest discover tests "*.py" -v` <br>
+## How to run tests
+1) Open terminal window
+2) Move to virtual environment folder
+3) Activate virtual environment
+4) Move to `automaton-v5` folder
+5) Execute `python -m unittest discover tests "*.py" -v`
 
 To be continue ...
