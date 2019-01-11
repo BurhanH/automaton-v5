@@ -6,7 +6,7 @@ Automation framework (API) - an example. Based on Python, Unittest
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/179c8d7e01a0486ebe5005e1e6183809)](https://app.codacy.com/app/BurhanH/automaton-v5?utm_source=github.com&utm_medium=referral&utm_content=BurhanH/automaton-v5&utm_campaign=Badge_Grade_Dashboard)
 
 ## Requirements
-Python 3.6.\*, Unittest, <br> 
+Python 3.7.\*, Unittest, <br> 
 virtualenv (virtual environment manager) <br>
 
 ## Project structure
