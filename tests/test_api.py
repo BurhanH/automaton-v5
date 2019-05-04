@@ -13,7 +13,7 @@ class TestAPI(unittest.TestCase):
     """
     This tests some API calls
     """
-    def test_get_posts(self):
+    def test_get_posts(self) -> None:
         """
         Testing posts
         """
@@ -23,7 +23,7 @@ class TestAPI(unittest.TestCase):
         data = response.json()
         self.assertEqual(len(data), POSTS, 'Getting less than {} posts!'.format(POSTS))
 
-    def test_get_post(self):
+    def test_get_post(self) -> None:
         """
         Testing post
         """
@@ -37,7 +37,7 @@ class TestAPI(unittest.TestCase):
             data['title'] == POST_TITLE, 'Expecting {} title, getting {} title!'.format(POST_TITLE, data['title'])
         )
 
-    def test_get_comments(self):
+    def test_get_comments(self) -> None:
         """
         Testing comments
         """
@@ -47,7 +47,7 @@ class TestAPI(unittest.TestCase):
         data = response.json()
         self.assertEqual(len(data), COMMENTS, 'Getting less than {} posts!'.format(COMMENTS))
 
-    def test_get_comment(self):
+    def test_get_comment(self) -> None:
         """
         Testing comment
         """
