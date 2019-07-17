@@ -1,12 +1,12 @@
 import unittest
 from calls import get_posts, get_comments
 
-HTTP_OK = 200                                       # Expect response code
-POSTS = 100                                         # Expect quantity of posts
-POST_ID = 6                                         # Expect post id
-POST_TITLE = 'dolorem eum magni eos aperiam quia'   # Expect post title
-COMMENTS = 500                                      # Expect quantity of comments
-COMMENT_ID = 120                                    # Expect comment id
+HTTP_OK = 200                                       # Expected response code
+POSTS = 100                                         # Expected quantity of posts
+POST_ID = 6                                         # Expected post id
+POST_TITLE = 'dolorem eum magni eos aperiam quia'   # Expected post title
+COMMENTS = 500                                      # Expected quantity of comments
+COMMENT_ID = 120                                    # Expected comment id
 
 
 class TestAPI(unittest.TestCase):
