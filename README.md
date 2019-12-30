@@ -1,5 +1,5 @@
-# automaton-v5
-Automation framework (API) - an example. Based on Python, Unittest
+# Automaton-v5
+Automation testing framework (API) - an example. Based on Python, Unittest
 
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BurhanH/automaton-v5/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/BurhanH/automaton-v5.svg?branch=master)](https://travis-ci.org/BurhanH/automaton-v5)
