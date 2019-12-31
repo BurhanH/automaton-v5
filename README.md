@@ -36,5 +36,3 @@ virtualenv (virtual environment manager) <br>
 3) Activate virtual environment
 4) Move to `automaton-v5` folder
 5) Execute `python -m unittest discover tests "*.py" -v`
-
-To be continue ...
