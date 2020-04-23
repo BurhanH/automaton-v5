@@ -36,3 +36,9 @@ virtualenv (virtual environment manager) <br>
 3) Activate virtual environment
 4) Move to `automaton-v5` folder
 5) Execute `python -m unittest discover tests "*.py" -v`
+
+## Techology stack and helpful info
+[Python 3.6](https://docs.python.org/3.6/) / [Python 3.7](https://docs.python.org/3.7/)<br>
+[virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/) <br>
+[GitHub, cloning repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) <br>
+[unittest](https://docs.python.org/3.7/library/unittest.html) <br>
