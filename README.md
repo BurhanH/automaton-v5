@@ -4,7 +4,6 @@ Automation testing framework (API) - an example. Based on Python, Unittest
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BurhanH/automaton-v5/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/BurhanH/automaton-v5.svg?branch=master)](https://travis-ci.org/BurhanH/automaton-v5)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/179c8d7e01a0486ebe5005e1e6183809)](https://app.codacy.com/app/BurhanH/automaton-v5?utm_source=github.com&utm_medium=referral&utm_content=BurhanH/automaton-v5&utm_campaign=Badge_Grade_Dashboard)
-[![HitCount](http://hits.dwyl.com/BurhanH/automaton-v5.svg)](http://hits.dwyl.com/BurhanH/automaton-v5)
 
 
 ## Requirements
